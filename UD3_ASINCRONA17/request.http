@@ -1,0 +1,64 @@
+###
+POST http://localhost:9000/API/PRODUCTOS  HTTP/1.1
+Content-Type: application/json
+
+{
+    "SKU":"P100",
+    "QTY":"100",
+    "NAME":"Whiskas Carni",
+    "PRICE":"12"
+}
+
+###
+POST http://localhost:9000/API/PRODUCTOS  HTTP/1.1
+Content-Type: application/json
+
+{
+    "SKU":"P101",
+    "QTY":"100",
+    "NAME":"Pedigree Vital",
+    "PRICE":"18.5"
+}
+
+
+###
+POST http://localhost:9000/API/PRODUCTOS  HTTP/1.1
+Content-Type: application/json
+
+{
+    "SKU":"P102",
+    "QTY":"170",
+    "NAME":"Formula Healty",
+    "PRICE":"19"
+}
+
+###
+POST http://localhost:9000/API/PRODUCTOS  HTTP/1.1
+Content-Type: application/json
+
+{
+    "SKU":"P105",
+    "QTY":"220",
+    "NAME":"Puerco para perro",
+    "PRICE":"20"
+}
+
+###
+GET http://localhost:9000/API/PRODUCTOS HTTP/1.1
+
+###
+GET http://localhost:9000/API/PRODUCTOS/639c906d9ca1fbe6a26d1394 HTTP/1.1
+
+###
+PUT http://localhost:9000/API/PRODUCTOS/639c8fe09ca1fbe6a26d138e  HTTP/1.1
+Content-Type: application/json
+
+{
+    "SKU":"P100",
+    "QTY":"100",
+    "NAME":"Whiskas Carni",
+    "PRICE":"12"
+}
+
+###
+DELETE http://localhost:9000/API/PRODUCTOS/639c9444a0fe8600da8e97f2 HTTP/1.1
